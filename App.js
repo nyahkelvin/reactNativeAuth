@@ -12,12 +12,12 @@ export default class App extends React.Component {
   componentWillMount() {
     // Initialize Firebase
     const config = {
-      apiKey: 'AIzaSyA8UMhyQochzDbzU4bwtMhf2d-BurboCK4',
-      authDomain: 'manager-5b74e.firebaseapp.com',
-      databaseURL: 'https://manager-5b74e.firebaseio.com',
-      projectId: 'manager-5b74e',
-      storageBucket: 'manager-5b74e.appspot.com',
-      messagingSenderId: '337541806016'
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      projectId: '',
+      storageBucket: '',
+      messagingSenderId: ''
     };
     firebase.initializeApp(config);
   }
